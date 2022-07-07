@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Simple starter
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Nuxt3 + Pinia + Element Plus + WindiCSS + Iconify
 
 ## Setup
 
@@ -9,34 +9,12 @@ Make sure to install the dependencies:
 ```bash
 # yarn
 yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
-## Development Server
+## Docs
 
-Start the development server on http://localhost:3000
+[Element Plus](https://greeng00se.tistory.com/73)
 
-```bash
-npm run dev
-```
+[Windi CSS + Iconify](https://greeng00se.tistory.com/75)
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+[Pinia](https://greeng00se.tistory.com/76)
