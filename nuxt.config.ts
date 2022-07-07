@@ -8,6 +8,6 @@ export default defineNuxtConfig({
     transpile: lifecycle === "build" ? ["element-plus"] : [],
   },
   buildModules: [
-    'nuxt-windicss',
+    'nuxt-windicss', '@pinia/nuxt'
   ],
 });
