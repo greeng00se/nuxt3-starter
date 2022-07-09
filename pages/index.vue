@@ -6,12 +6,13 @@
     <input type="button" @click="store.increment()" value="increment">
     {{ store.count }}
     {{ store.doubleCount }}
+    <el-icon><User style="font-size:24px;"/></el-icon>
   </div>
 </template>
 
 <script setup lang="ts">
 import { Icon } from "@iconify/vue";
-import { ElButton, ElInput } from "element-plus";
+import { ElButton, ElInput, ElIcon } from "element-plus";
 import { useCounterStore } from "../stores/counter"
 
 const store = useCounterStore();
