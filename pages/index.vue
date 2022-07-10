@@ -12,7 +12,6 @@
 
 <script setup lang="ts">
 import { Icon } from "@iconify/vue";
-import { ElButton, ElInput, ElIcon } from "element-plus";
 import { useCounterStore } from "../stores/counter"
 
 const store = useCounterStore();
